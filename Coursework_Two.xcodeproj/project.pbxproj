@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		554D0005170476DE004CC914 /* AxesDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 554D0004170476DE004CC914 /* AxesDrawer.m */; };
 		559BF7E817023D7D004A76B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559BF7E717023D7D004A76B8 /* UIKit.framework */; };
 		559BF7EA17023D7D004A76B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559BF7E917023D7D004A76B8 /* Foundation.framework */; };
 		559BF7EC17023D7D004A76B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559BF7EB17023D7D004A76B8 /* CoreGraphics.framework */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		554D0003170476DE004CC914 /* AxesDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxesDrawer.h; sourceTree = "<group>"; };
+		554D0004170476DE004CC914 /* AxesDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxesDrawer.m; sourceTree = "<group>"; };
 		559BF7E417023D7D004A76B8 /* Coursework_Two.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coursework_Two.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		559BF7E717023D7D004A76B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		559BF7E917023D7D004A76B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -86,6 +89,8 @@
 		559BF7ED17023D7D004A76B8 /* Coursework_Two */ = {
 			isa = PBXGroup;
 			children = (
+				554D0003170476DE004CC914 /* AxesDrawer.h */,
+				554D0004170476DE004CC914 /* AxesDrawer.m */,
 				559BF7F617023D7D004A76B8 /* AppDelegate.h */,
 				559BF7F717023D7D004A76B8 /* AppDelegate.m */,
 				559BF7FF17023D7D004A76B8 /* MainStoryboard.storyboard */,
@@ -182,6 +187,7 @@
 				559BF7F817023D7D004A76B8 /* AppDelegate.m in Sources */,
 				559BF80417023D7D004A76B8 /* MasterViewController.m in Sources */,
 				559BF80717023D7D004A76B8 /* DetailViewController.m in Sources */,
+				554D0005170476DE004CC914 /* AxesDrawer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +312,7 @@
 				559BF80C17023D7D004A76B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
